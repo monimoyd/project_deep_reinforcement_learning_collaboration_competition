@@ -23,22 +23,35 @@ The task is episodic, and in order to solve the environment, your agents must ge
 
 The environment is considered solved, when the average (over 100 episodes) of those **scores** is at least +0.5.
 
-### Getting Started
+This project is part of the [Deep Reinforcement Learning Nanodegree](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=2ahUKEwigwuKwr4LdAhUMI5AKHTuBCz0QFjAAegQIDBAB&url=https%3A%2F%2Fwww.udacity.com%2Fcourse%2Fdeep-reinforcement-learning-nanodegree--nd893&usg=AOvVaw3OfEe4LlR9h_4vW3TZpE_o) program, from Udacity. You can check my report [here](Report.pdf).
 
-1. Download the environment from one of the links below.  You need only select the environment that matches your operating system:
-    - Linux: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis_Linux.zip)
-    - Mac OSX: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis.app.zip)
-    - Windows (32-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis_Windows_x86.zip)
-    - Windows (64-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis_Windows_x86_64.zip)
-    
-    (_For Windows users_) Check out [this link](https://support.microsoft.com/en-us/help/827218/how-to-determine-whether-a-computer-is-running-a-32-bit-version-or-64) if you need help with determining if your computer is running a 32-bit version or 64-bit version of the Windows operating system.
 
-    (_For AWS_) If you'd like to train the agent on AWS (and have not [enabled a virtual screen](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Training-on-Amazon-Web-Service.md)), then please use [this link](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis_Linux_NoVis.zip) to obtain the "headless" version of the environment.  You will **not** be able to watch the agent without enabling a virtual screen, but you will be able to train the agent.  (_To watch the agent, you should follow the instructions to [enable a virtual screen](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Training-on-Amazon-Web-Service.md), and then download the environment for the **Linux** operating system above._)
 
-2. Place the file in the  GitHub repository and unzip (or decompress) the file. 
+### Install
 
-### Instructions
+This project requires **Python 3.5** or higher, the Banana Collector Environment, download the code from this repository and the following Python libraries installed:
 
-Follow the instructions in `Tennis.ipynb` to get started with training your own agent!  
+- [NumPy](http://www.numpy.org/)
+- [Torch](https://pytorch.org)
+- [UnityAgents](https://github.com/Unity-Technologies/ml-agents)
+- [OpenAI Gym](https://gym.openai.com)
+
+### Run
+
+In a terminal or command window, navigate to the top-level project directory `banana-rl/` (that contains this README) and run the following command:
+
+```shell
+$ jupyter notebook
+```
+
+This will open the Jupyter Notebook software and notebook in your browser which you can use to explore and reproduce the experiments that have been run. 
+
+
+
+### License
+
+The contents of this repository are covered under the [MIT License](LICENSE).
+
+
 
 
